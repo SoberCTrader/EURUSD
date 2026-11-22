@@ -1,0 +1,18 @@
+# EURUSD Phase II - packaging manifest
+
+Originals verified by md5 at pack time; originals left untouched. Digest: REPORT.md / receipt.json / anomalies.csv (phase2_digest.py).
+
+| original file | original md5 | bytes | rows | first bar | last bar | .gz md5 | .gz bytes |
+|---|---|---|---|---|---|---|---|
+| CCMonthCapture EURUSD h4 20130726-20231231.csv | a367a8f0fe13280fcaea7501d5cb14fc | 839440 | 14668 | 2013-07-26 05:00:00 | 2023-12-29 18:00:00 | eb6a5b47362f2223d08a521c27da1bba | 237775 |
+| CCMonthCapture EURUSD h4 20160726-20261121.csv | c43bb479f659c0d3d68879ef4f90f5cd | 829917 | 14500 | 2016-07-26 17:00:00 | 2026-11-20 18:00:00 | bf13f02f6f104f36a11b19df9366718f | 233894 |
+| CCMonthCapture EURUSD t100 20260101-20260630.csv | 3b448a83dcecc59ba51ecb0ee86cb16c | 4728873 | 85112 | 2026-01-01 22:18:04 | 2026-06-30 23:56:33 | 5199c5f642031a8001f4c99765cceb60 | 930326 |
+| CCMonthCapture EURUSD t100 20260701-20261121.csv | cf3b0f988b069839e18ff26b4cbbf62b | 2994749 | 53898 | 2026-07-01 00:00:13 | 2026-11-20 21:50:05 | d086e6553c3b0bb3368310e6e78886d2 | 583565 |
+| CCMonthCapture EURUSD t750 20220101-20221231.csv | b068ff827f12e0ac50dfe83337239ef0 | 1507209 | 27148 | 2022-01-02 23:05:58 | 2022-12-30 21:54:48 | 16c2bb4f2dc7dc6cbcbb20eb8d884c8b | 354760 |
+| CCMonthCapture EURUSD t750 20230101-20231231.csv | 52eff4e7980fd5ea9ddded88cb45781d | 1050416 | 18940 | 2023-01-01 22:48:12 | 2023-12-29 21:44:53 | cf6058de121eaf94ff8d296a3a8d8897 | 246862 |
+| CCMonthCapture EURUSD t750 20240101-20241231.csv | 9f4051eb5b996fa84260b342b0d9d78d | 1022244 | 18404 | 2024-01-01 23:41:48 | 2024-12-31 21:30:01 | 551b9222dcd47957181128fb22b9dbe7 | 235863 |
+| CCMonthCapture EURUSD t750 20250101-20251231.csv | 0919bbf78de1c425c5b5d6e6da5e602c | 1110776 | 19991 | 2025-01-01 22:23:31 | 2025-12-31 21:02:57 | a8b433b44842d6470db971d839679162 | 262930 |
+| CCMonthCapture EURUSD t750 20260101-20261122.csv | bebdcae7ca588e84a0d3eb70474891af | 1029646 | 18533 | 2026-01-01 22:43:10 | 2026-11-20 20:52:35 | 05bc65081a6cfd544d4541d9d83a6c0c | 237465 |
+| anomalies.csv | 12ea8085bb749c37660ccc25e535d876 | 2165 | 17 | file timestamp | CCMonthCapture EURUSD t750 20230101-20231231.csv 2023-02-24 21:44:46 | a5f4e97ca9a1caf92efb702c79867beb | 675 |
+
+Upload list: CCMonthCapture EURUSD h4 20130726-20231231.csv.gz, CCMonthCapture EURUSD h4 20160726-20261121.csv.gz, CCMonthCapture EURUSD t100 20260101-20260630.csv.gz, CCMonthCapture EURUSD t100 20260701-20261121.csv.gz, CCMonthCapture EURUSD t750 20220101-20221231.csv.gz, CCMonthCapture EURUSD t750 20230101-20231231.csv.gz, CCMonthCapture EURUSD t750 20240101-20241231.csv.gz, CCMonthCapture EURUSD t750 20250101-20251231.csv.gz, CCMonthCapture EURUSD t750 20260101-20261122.csv.gz, PACKAGING.md, REPORT.md, receipt.json, anomalies.csv
