@@ -1,5 +1,5 @@
 {
- "run": "2026-11-22 12:38:40 UTC",
+ "run": "2026-11-22 12:41:38 UTC",
  "tool": "phase2_digest.py",
  "python": "3.12.14",
  "instrument": "EURUSD",
@@ -46,6 +46,46 @@
    "bad_nf_count": 0,
    "bad_nf": [],
    "tick_size": 14400
+  },
+  {
+   "name": "CCMonthCapture EURUSD t100 20240101-20241231.csv",
+   "bytes": 7668358,
+   "md5": "17b1dbeb1ef030d81ce8d775742d5c90",
+   "rows": 138033,
+   "kind": "bar",
+   "first": "2024-01-01 22:51:33",
+   "last": "2024-12-31 21:57:24",
+   "tf": "t100",
+   "claimed": "2024 dates:2024-01-01,2024-12-31",
+   "actual": "2024-01-01 22:51:33 .. 2024-12-31 21:57:24",
+   "symbol": "EURUSD-consistent",
+   "symbol_note": "median 1.08344 in [1.03406..1.12121]",
+   "header": null,
+   "swapped": false,
+   "delim": ",",
+   "bad_nf_count": 0,
+   "bad_nf": [],
+   "tick_size": 100
+  },
+  {
+   "name": "CCMonthCapture EURUSD t100 20250101-20251231.csv",
+   "bytes": 8330808,
+   "md5": "aec5de382e3d86b364f0349d94279622",
+   "rows": 149933,
+   "kind": "bar",
+   "first": "2025-01-01 22:08:56",
+   "last": "2025-12-31 21:55:42",
+   "tf": "t100",
+   "claimed": "2025 dates:2025-01-01,2025-12-31",
+   "actual": "2025-01-01 22:08:56 .. 2025-12-31 21:55:42",
+   "symbol": "EURUSD-consistent",
+   "symbol_note": "median 1.14946 in [1.01798..1.19149]",
+   "header": null,
+   "swapped": false,
+   "delim": ",",
+   "bad_nf_count": 0,
+   "bad_nf": [],
+   "tick_size": 100
   },
   {
    "name": "CCMonthCapture EURUSD t100 20260101-20260630.csv",
@@ -200,10 +240,10 @@
    "conflicts": 0
   },
   "t100": {
-   "rows": 139010,
-   "first": "2026-01-01 22:18:04",
+   "rows": 426976,
+   "first": "2024-01-01 22:51:33",
    "last": "2026-11-20 21:50:05",
-   "active_days": 278,
+   "active_days": 904,
    "agree": 0,
    "overlap": 0,
    "conflicts": 0
@@ -5506,6 +5546,870 @@
    "tf": "h4"
   },
   {
+   "from": "2024-01-05 21:50:19",
+   "to": "2024-01-07 22:04:30",
+   "hours": 48.24,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-01-12 21:55:02",
+   "to": "2024-01-14 22:06:20",
+   "hours": 48.19,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-01-19 21:52:40",
+   "to": "2024-01-21 22:15:34",
+   "hours": 48.38,
+   "class": "weekend",
+   "note": "48.4h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-01-26 21:55:21",
+   "to": "2024-01-28 22:08:29",
+   "hours": 48.22,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-02-02 21:56:51",
+   "to": "2024-02-04 22:19:56",
+   "hours": 48.38,
+   "class": "weekend",
+   "note": "48.4h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-02-09 21:55:06",
+   "to": "2024-02-11 22:21:01",
+   "hours": 48.43,
+   "class": "weekend",
+   "note": "48.4h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-02-16 21:56:00",
+   "to": "2024-02-18 22:16:53",
+   "hours": 48.35,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-02-23 21:53:58",
+   "to": "2024-02-25 22:01:17",
+   "hours": 48.12,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-03-01 21:55:05",
+   "to": "2024-03-03 22:21:12",
+   "hours": 48.44,
+   "class": "weekend",
+   "note": "48.4h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-03-08 21:55:10",
+   "to": "2024-03-10 21:16:35",
+   "hours": 47.36,
+   "class": "weekend",
+   "note": "47.4h (DST-adjusted expected 48h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-03-15 20:52:43",
+   "to": "2024-03-17 21:05:23",
+   "hours": 48.21,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-03-22 20:56:44",
+   "to": "2024-03-24 22:00:21",
+   "hours": 49.06,
+   "class": "weekend",
+   "note": "49.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-03-29 20:54:45",
+   "to": "2024-03-31 21:40:47",
+   "hours": 48.77,
+   "class": "weekend",
+   "note": "48.8h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-04-05 20:52:48",
+   "to": "2024-04-07 21:31:01",
+   "hours": 48.64,
+   "class": "weekend",
+   "note": "48.6h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-04-12 20:51:53",
+   "to": "2024-04-14 21:04:04",
+   "hours": 48.2,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-04-19 20:56:48",
+   "to": "2024-04-21 21:21:28",
+   "hours": 48.41,
+   "class": "weekend",
+   "note": "48.4h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-04-26 20:54:27",
+   "to": "2024-04-28 21:19:02",
+   "hours": 48.41,
+   "class": "weekend",
+   "note": "48.4h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-05-03 20:55:55",
+   "to": "2024-05-05 21:07:58",
+   "hours": 48.2,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-05-10 20:51:06",
+   "to": "2024-05-12 21:05:38",
+   "hours": 48.24,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-05-17 20:53:27",
+   "to": "2024-05-19 21:05:44",
+   "hours": 48.2,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-05-24 20:47:06",
+   "to": "2024-05-26 21:05:00",
+   "hours": 48.3,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-05-31 20:56:21",
+   "to": "2024-06-02 21:07:46",
+   "hours": 48.19,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-06-07 20:54:01",
+   "to": "2024-06-09 21:02:25",
+   "hours": 48.14,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-06-14 20:55:28",
+   "to": "2024-06-16 21:09:33",
+   "hours": 48.23,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-06-21 20:52:58",
+   "to": "2024-06-23 21:04:37",
+   "hours": 48.19,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-06-28 20:55:12",
+   "to": "2024-06-30 21:01:04",
+   "hours": 48.1,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-07-05 20:56:47",
+   "to": "2024-07-07 21:05:51",
+   "hours": 48.15,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-07-12 20:55:32",
+   "to": "2024-07-14 21:12:21",
+   "hours": 48.28,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-07-19 20:56:18",
+   "to": "2024-07-21 21:17:49",
+   "hours": 48.36,
+   "class": "weekend",
+   "note": "48.4h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-07-26 20:55:12",
+   "to": "2024-07-28 21:14:09",
+   "hours": 48.32,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-08-02 20:55:52",
+   "to": "2024-08-04 21:02:56",
+   "hours": 48.12,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-08-09 20:56:46",
+   "to": "2024-08-11 21:30:18",
+   "hours": 48.56,
+   "class": "weekend",
+   "note": "48.6h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-08-16 20:53:49",
+   "to": "2024-08-18 21:03:21",
+   "hours": 48.16,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-08-23 20:56:15",
+   "to": "2024-08-25 21:07:21",
+   "hours": 48.19,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-08-30 20:55:40",
+   "to": "2024-09-01 21:06:02",
+   "hours": 48.17,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-09-06 20:54:08",
+   "to": "2024-09-08 21:03:08",
+   "hours": 48.15,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-09-13 20:55:54",
+   "to": "2024-09-15 21:06:15",
+   "hours": 48.17,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-09-20 20:56:06",
+   "to": "2024-09-22 21:09:58",
+   "hours": 48.23,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-09-27 20:55:51",
+   "to": "2024-09-29 21:06:00",
+   "hours": 48.17,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-10-04 20:55:57",
+   "to": "2024-10-06 21:05:56",
+   "hours": 48.17,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-10-11 20:56:56",
+   "to": "2024-10-13 21:23:28",
+   "hours": 48.44,
+   "class": "weekend",
+   "note": "48.4h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-10-18 20:53:37",
+   "to": "2024-10-20 21:08:44",
+   "hours": 48.25,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-10-25 20:52:51",
+   "to": "2024-10-27 21:02:21",
+   "hours": 48.16,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-11-01 20:56:15",
+   "to": "2024-11-03 22:04:09",
+   "hours": 49.13,
+   "class": "weekend",
+   "note": "49.1h (DST-adjusted expected 50h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-11-08 21:55:37",
+   "to": "2024-11-10 22:05:44",
+   "hours": 48.17,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-11-15 21:55:54",
+   "to": "2024-11-17 22:06:49",
+   "hours": 48.18,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-11-22 21:56:42",
+   "to": "2024-11-24 22:03:50",
+   "hours": 48.12,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-11-29 21:55:43",
+   "to": "2024-12-01 22:05:11",
+   "hours": 48.16,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-12-06 21:55:57",
+   "to": "2024-12-08 22:09:40",
+   "hours": 48.23,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-12-13 21:54:38",
+   "to": "2024-12-15 22:02:20",
+   "hours": 48.13,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-12-20 21:56:27",
+   "to": "2024-12-22 22:09:40",
+   "hours": 48.22,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-12-24 21:52:42",
+   "to": "2024-12-25 22:06:09",
+   "hours": 24.22,
+   "class": "holiday",
+   "note": "Christmas",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-12-27 21:55:44",
+   "to": "2024-12-29 22:04:09",
+   "hours": 48.14,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2024-12-31 21:57:24",
+   "to": "2025-01-01 22:08:56",
+   "hours": 24.19,
+   "class": "holiday",
+   "note": "New Year's Day",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-01-03 21:52:45",
+   "to": "2025-01-05 22:07:45",
+   "hours": 48.25,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-01-10 21:56:56",
+   "to": "2025-01-12 22:08:48",
+   "hours": 48.2,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-01-17 21:56:16",
+   "to": "2025-01-19 22:17:10",
+   "hours": 48.35,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-01-24 21:55:43",
+   "to": "2025-01-26 22:12:56",
+   "hours": 48.29,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-01-31 21:56:50",
+   "to": "2025-02-02 22:05:49",
+   "hours": 48.15,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-02-07 21:56:34",
+   "to": "2025-02-09 22:02:19",
+   "hours": 48.1,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-02-14 21:56:34",
+   "to": "2025-02-16 22:14:11",
+   "hours": 48.29,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-02-21 21:56:36",
+   "to": "2025-02-23 22:14:31",
+   "hours": 48.3,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-02-28 21:55:01",
+   "to": "2025-03-02 22:01:06",
+   "hours": 48.1,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-03-07 21:56:51",
+   "to": "2025-03-09 21:17:31",
+   "hours": 47.34,
+   "class": "weekend",
+   "note": "47.3h (DST-adjusted expected 48h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-03-14 20:55:45",
+   "to": "2025-03-16 21:15:32",
+   "hours": 48.33,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-03-21 20:56:50",
+   "to": "2025-03-23 21:31:30",
+   "hours": 48.58,
+   "class": "weekend",
+   "note": "48.6h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-03-28 20:55:55",
+   "to": "2025-03-30 21:27:52",
+   "hours": 48.53,
+   "class": "weekend",
+   "note": "48.5h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-04-04 20:56:41",
+   "to": "2025-04-06 21:12:10",
+   "hours": 48.26,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-04-11 20:55:50",
+   "to": "2025-04-13 21:14:06",
+   "hours": 48.3,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-04-18 20:44:25",
+   "to": "2025-04-20 21:29:47",
+   "hours": 48.76,
+   "class": "weekend",
+   "note": "48.8h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-04-25 20:55:38",
+   "to": "2025-04-27 22:00:33",
+   "hours": 49.08,
+   "class": "weekend",
+   "note": "49.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-05-02 20:56:57",
+   "to": "2025-05-04 21:39:25",
+   "hours": 48.71,
+   "class": "weekend",
+   "note": "48.7h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-05-09 20:50:01",
+   "to": "2025-05-11 21:02:58",
+   "hours": 48.22,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-05-16 20:55:49",
+   "to": "2025-05-18 21:06:05",
+   "hours": 48.17,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-05-23 20:56:20",
+   "to": "2025-05-25 21:24:33",
+   "hours": 48.47,
+   "class": "weekend",
+   "note": "48.5h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-05-30 20:55:13",
+   "to": "2025-06-01 21:10:31",
+   "hours": 48.26,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-06-06 20:54:49",
+   "to": "2025-06-08 21:18:31",
+   "hours": 48.4,
+   "class": "weekend",
+   "note": "48.4h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-06-13 20:54:14",
+   "to": "2025-06-15 21:03:20",
+   "hours": 48.15,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-06-20 20:52:59",
+   "to": "2025-06-22 21:01:00",
+   "hours": 48.13,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-06-27 20:56:00",
+   "to": "2025-06-29 21:16:39",
+   "hours": 48.34,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-07-04 20:54:30",
+   "to": "2025-07-06 21:16:04",
+   "hours": 48.36,
+   "class": "weekend",
+   "note": "48.4h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-07-11 20:54:49",
+   "to": "2025-07-13 21:03:30",
+   "hours": 48.14,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-07-18 20:56:52",
+   "to": "2025-07-20 21:13:05",
+   "hours": 48.27,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-07-25 20:56:19",
+   "to": "2025-07-27 21:03:07",
+   "hours": 48.11,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-08-01 20:56:18",
+   "to": "2025-08-03 21:08:45",
+   "hours": 48.21,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-08-08 20:52:43",
+   "to": "2025-08-10 21:06:08",
+   "hours": 48.22,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-08-15 20:56:16",
+   "to": "2025-08-17 21:12:07",
+   "hours": 48.26,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-08-22 20:56:36",
+   "to": "2025-08-24 21:25:33",
+   "hours": 48.48,
+   "class": "weekend",
+   "note": "48.5h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-08-29 20:56:55",
+   "to": "2025-08-31 21:11:38",
+   "hours": 48.25,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-09-05 20:56:03",
+   "to": "2025-09-07 21:16:40",
+   "hours": 48.34,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-09-12 20:53:17",
+   "to": "2025-09-14 21:09:20",
+   "hours": 48.27,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-09-19 20:55:07",
+   "to": "2025-09-21 21:24:15",
+   "hours": 48.49,
+   "class": "weekend",
+   "note": "48.5h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-09-26 20:56:30",
+   "to": "2025-09-28 21:43:03",
+   "hours": 48.78,
+   "class": "weekend",
+   "note": "48.8h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-10-03 20:56:01",
+   "to": "2025-10-05 21:11:42",
+   "hours": 48.26,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-10-10 20:56:29",
+   "to": "2025-10-12 21:05:24",
+   "hours": 48.15,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-10-17 20:54:32",
+   "to": "2025-10-19 21:01:43",
+   "hours": 48.12,
+   "class": "weekend",
+   "note": "48.1h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-10-24 20:56:07",
+   "to": "2025-10-26 21:06:30",
+   "hours": 48.17,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-10-31 20:56:06",
+   "to": "2025-11-02 22:37:07",
+   "hours": 49.68,
+   "class": "weekend",
+   "note": "49.7h (DST-adjusted expected 50h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-11-07 21:55:48",
+   "to": "2025-11-09 22:31:34",
+   "hours": 48.6,
+   "class": "weekend",
+   "note": "48.6h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-11-14 21:56:30",
+   "to": "2025-11-16 22:17:56",
+   "hours": 48.36,
+   "class": "weekend",
+   "note": "48.4h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-11-21 21:56:22",
+   "to": "2025-11-23 22:35:10",
+   "hours": 48.65,
+   "class": "weekend",
+   "note": "48.6h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-11-28 21:41:47",
+   "to": "2025-11-30 22:05:00",
+   "hours": 48.39,
+   "class": "weekend",
+   "note": "48.4h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-12-05 21:55:00",
+   "to": "2025-12-07 22:08:56",
+   "hours": 48.23,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-12-12 21:56:12",
+   "to": "2025-12-14 22:14:13",
+   "hours": 48.3,
+   "class": "weekend",
+   "note": "48.3h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-12-19 21:56:49",
+   "to": "2025-12-21 22:30:02",
+   "hours": 48.55,
+   "class": "weekend",
+   "note": "48.6h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-12-24 21:57:00",
+   "to": "2025-12-26 00:58:18",
+   "hours": 27.02,
+   "class": "holiday",
+   "note": "Christmas",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-12-26 21:52:31",
+   "to": "2025-12-28 22:03:45",
+   "hours": 48.19,
+   "class": "weekend",
+   "note": "48.2h (DST-adjusted expected 49h)",
+   "tf": "t100"
+  },
+  {
+   "from": "2025-12-31 21:55:42",
+   "to": "2026-01-01 22:18:04",
+   "hours": 24.37,
+   "class": "holiday",
+   "note": "New Year's Day",
+   "tf": "t100"
+  },
+  {
    "from": "2026-01-02 21:54:55",
    "to": "2026-01-04 22:18:44",
    "hours": 48.4,
@@ -7945,7 +8849,8 @@
    "UNEXPLAINED": 1
   },
   "t100": {
-   "weekend": 46
+   "weekend": 150,
+   "holiday": 4
   },
   "t750": {
    "weekend": 254,
@@ -14035,6 +14940,15 @@
   ],
   "t100": [
    {
+    "from": "2025-06-20 20:52:59",
+    "to": "2025-06-22 21:01:00",
+    "prev_close": 1.15212,
+    "reopen": 1.14539,
+    "drift": -0.0067,
+    "drift_pct": -0.5841,
+    "tf": "t100"
+   },
+   {
     "from": "2026-05-08 20:54:24",
     "to": "2026-05-10 21:01:00",
     "prev_close": 1.17852,
@@ -14089,6 +15003,15 @@
     "tf": "t100"
    },
    {
+    "from": "2025-02-28 21:55:01",
+    "to": "2025-03-02 22:01:06",
+    "prev_close": 1.03967,
+    "reopen": 1.03941,
+    "drift": -0.0003,
+    "drift_pct": -0.025,
+    "tf": "t100"
+   },
+   {
     "from": "2026-06-19 20:46:37",
     "to": "2026-06-21 21:38:17",
     "prev_close": 1.14561,
@@ -14107,12 +15030,219 @@
     "tf": "t100"
    },
    {
+    "from": "2025-12-26 21:52:31",
+    "to": "2025-12-28 22:03:45",
+    "prev_close": 1.1759,
+    "reopen": 1.17612,
+    "drift": 0.0002,
+    "drift_pct": 0.0187,
+    "tf": "t100"
+   },
+   {
     "from": "2026-07-31 20:56:24",
     "to": "2026-08-02 21:06:42",
     "prev_close": 1.15452,
     "reopen": 1.15472,
     "drift": 0.0002,
     "drift_pct": 0.0173,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-02-07 21:56:34",
+    "to": "2025-02-09 22:02:19",
+    "prev_close": 1.02922,
+    "reopen": 1.02906,
+    "drift": -0.0002,
+    "drift_pct": -0.0155,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-10-24 20:56:07",
+    "to": "2025-10-26 21:06:30",
+    "prev_close": 1.16318,
+    "reopen": 1.16336,
+    "drift": 0.0002,
+    "drift_pct": 0.0155,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-03-15 20:52:43",
+    "to": "2024-03-17 21:05:23",
+    "prev_close": 1.08898,
+    "reopen": 1.08882,
+    "drift": -0.0002,
+    "drift_pct": -0.0147,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-09-20 20:56:06",
+    "to": "2024-09-22 21:09:58",
+    "prev_close": 1.11587,
+    "reopen": 1.11603,
+    "drift": 0.0002,
+    "drift_pct": 0.0143,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-01-19 21:52:40",
+    "to": "2024-01-21 22:15:34",
+    "prev_close": 1.08879,
+    "reopen": 1.08894,
+    "drift": 0.0002,
+    "drift_pct": 0.0138,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-05-30 20:55:13",
+    "to": "2025-06-01 21:10:31",
+    "prev_close": 1.1346,
+    "reopen": 1.13475,
+    "drift": 0.0001,
+    "drift_pct": 0.0132,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-11-22 21:56:42",
+    "to": "2024-11-24 22:03:50",
+    "prev_close": 1.04793,
+    "reopen": 1.0478,
+    "drift": -0.0001,
+    "drift_pct": -0.0124,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-05-10 20:51:06",
+    "to": "2024-05-12 21:05:38",
+    "prev_close": 1.07705,
+    "reopen": 1.07692,
+    "drift": -0.0001,
+    "drift_pct": -0.0121,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-04-18 20:44:25",
+    "to": "2025-04-20 21:29:47",
+    "prev_close": 1.14046,
+    "reopen": 1.14059,
+    "drift": 0.0001,
+    "drift_pct": 0.0114,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-04-12 20:51:53",
+    "to": "2024-04-14 21:04:04",
+    "prev_close": 1.06312,
+    "reopen": 1.06301,
+    "drift": -0.0001,
+    "drift_pct": -0.0103,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-07-11 20:54:49",
+    "to": "2025-07-13 21:03:30",
+    "prev_close": 1.1659,
+    "reopen": 1.16602,
+    "drift": 0.0001,
+    "drift_pct": 0.0103,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-12-12 21:56:12",
+    "to": "2025-12-14 22:14:13",
+    "prev_close": 1.17341,
+    "reopen": 1.17352,
+    "drift": 0.0001,
+    "drift_pct": 0.0094,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-01-12 21:55:02",
+    "to": "2024-01-14 22:06:20",
+    "prev_close": 1.09442,
+    "reopen": 1.09432,
+    "drift": -0.0001,
+    "drift_pct": -0.0091,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-05-09 20:50:01",
+    "to": "2025-05-11 21:02:58",
+    "prev_close": 1.11914,
+    "reopen": 1.11924,
+    "drift": 0.0001,
+    "drift_pct": 0.0089,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-12-13 21:54:38",
+    "to": "2024-12-15 22:02:20",
+    "prev_close": 1.04854,
+    "reopen": 1.04845,
+    "drift": -0.0001,
+    "drift_pct": -0.0086,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-07-04 20:54:30",
+    "to": "2025-07-06 21:16:04",
+    "prev_close": 1.17811,
+    "reopen": 1.17801,
+    "drift": -0.0001,
+    "drift_pct": -0.0085,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-12-19 21:56:49",
+    "to": "2025-12-21 22:30:02",
+    "prev_close": 1.17121,
+    "reopen": 1.17131,
+    "drift": 0.0001,
+    "drift_pct": 0.0085,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-03-28 20:55:55",
+    "to": "2025-03-30 21:27:52",
+    "prev_close": 1.0824,
+    "reopen": 1.08249,
+    "drift": 0.0001,
+    "drift_pct": 0.0083,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-11-28 21:41:47",
+    "to": "2025-11-30 22:05:00",
+    "prev_close": 1.15897,
+    "reopen": 1.15906,
+    "drift": 0.0001,
+    "drift_pct": 0.0078,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-03-21 20:56:50",
+    "to": "2025-03-23 21:31:30",
+    "prev_close": 1.08157,
+    "reopen": 1.08165,
+    "drift": 0.0001,
+    "drift_pct": 0.0074,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-09-06 20:54:08",
+    "to": "2024-09-08 21:03:08",
+    "prev_close": 1.10796,
+    "reopen": 1.10803,
+    "drift": 0.0001,
+    "drift_pct": 0.0063,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-03-08 21:55:10",
+    "to": "2024-03-10 21:16:35",
+    "prev_close": 1.09406,
+    "reopen": 1.094,
+    "drift": -0.0001,
+    "drift_pct": -0.0055,
     "tf": "t100"
    },
    {
@@ -14131,6 +15261,33 @@
     "reopen": 1.15951,
     "drift": 0.0001,
     "drift_pct": 0.0052,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-01-05 21:50:19",
+    "to": "2024-01-07 22:04:30",
+    "prev_close": 1.09379,
+    "reopen": 1.09374,
+    "drift": -0.0001,
+    "drift_pct": -0.0046,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-05-31 20:56:21",
+    "to": "2024-06-02 21:07:46",
+    "prev_close": 1.08454,
+    "reopen": 1.08449,
+    "drift": -0.0001,
+    "drift_pct": -0.0046,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-07-26 20:55:12",
+    "to": "2024-07-28 21:14:09",
+    "prev_close": 1.08568,
+    "reopen": 1.08573,
+    "drift": 0.0001,
+    "drift_pct": 0.0046,
     "tf": "t100"
    },
    {
@@ -14161,6 +15318,69 @@
     "tf": "t100"
    },
    {
+    "from": "2024-04-19 20:56:48",
+    "to": "2024-04-21 21:21:28",
+    "prev_close": 1.06602,
+    "reopen": 1.06598,
+    "drift": -0.0,
+    "drift_pct": -0.0038,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-02-14 21:56:34",
+    "to": "2025-02-16 22:14:11",
+    "prev_close": 1.04869,
+    "reopen": 1.04873,
+    "drift": 0.0,
+    "drift_pct": 0.0038,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-02-09 21:55:06",
+    "to": "2024-02-11 22:21:01",
+    "prev_close": 1.07821,
+    "reopen": 1.07817,
+    "drift": -0.0,
+    "drift_pct": -0.0037,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-05-24 20:47:06",
+    "to": "2024-05-26 21:05:00",
+    "prev_close": 1.08464,
+    "reopen": 1.08468,
+    "drift": 0.0,
+    "drift_pct": 0.0037,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-06-28 20:55:12",
+    "to": "2024-06-30 21:01:04",
+    "prev_close": 1.07381,
+    "reopen": 1.07385,
+    "drift": 0.0,
+    "drift_pct": 0.0037,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-07-05 20:56:47",
+    "to": "2024-07-07 21:05:51",
+    "prev_close": 1.08067,
+    "reopen": 1.08071,
+    "drift": 0.0,
+    "drift_pct": 0.0037,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-07-12 20:55:32",
+    "to": "2024-07-14 21:12:21",
+    "prev_close": 1.08884,
+    "reopen": 1.08888,
+    "drift": 0.0,
+    "drift_pct": 0.0037,
+    "tf": "t100"
+   },
+   {
     "from": "2026-11-06 21:56:23",
     "to": "2026-11-08 22:32:35",
     "prev_close": 1.11336,
@@ -14179,12 +15399,93 @@
     "tf": "t100"
    },
    {
+    "from": "2025-08-08 20:52:43",
+    "to": "2025-08-10 21:06:08",
+    "prev_close": 1.16423,
+    "reopen": 1.16427,
+    "drift": 0.0,
+    "drift_pct": 0.0034,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-10-10 20:56:29",
+    "to": "2025-10-12 21:05:24",
+    "prev_close": 1.16063,
+    "reopen": 1.16059,
+    "drift": -0.0,
+    "drift_pct": -0.0034,
+    "tf": "t100"
+   },
+   {
     "from": "2026-02-27 21:54:46",
     "to": "2026-03-01 22:03:54",
     "prev_close": 1.17656,
     "reopen": 1.17652,
     "drift": -0.0,
     "drift_pct": -0.0034,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-01-10 21:56:56",
+    "to": "2025-01-12 22:08:48",
+    "prev_close": 1.02386,
+    "reopen": 1.02389,
+    "drift": 0.0,
+    "drift_pct": 0.0029,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-01-24 21:55:43",
+    "to": "2025-01-26 22:12:56",
+    "prev_close": 1.04804,
+    "reopen": 1.04801,
+    "drift": -0.0,
+    "drift_pct": -0.0029,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-03-01 21:55:05",
+    "to": "2024-03-03 22:21:12",
+    "prev_close": 1.08389,
+    "reopen": 1.08392,
+    "drift": 0.0,
+    "drift_pct": 0.0028,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-11-29 21:55:43",
+    "to": "2024-12-01 22:05:11",
+    "prev_close": 1.05653,
+    "reopen": 1.05656,
+    "drift": 0.0,
+    "drift_pct": 0.0028,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-09-13 20:55:54",
+    "to": "2024-09-15 21:06:15",
+    "prev_close": 1.10767,
+    "reopen": 1.1077,
+    "drift": 0.0,
+    "drift_pct": 0.0027,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-10-04 20:55:57",
+    "to": "2024-10-06 21:05:56",
+    "prev_close": 1.09674,
+    "reopen": 1.09677,
+    "drift": 0.0,
+    "drift_pct": 0.0027,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-04-11 20:55:50",
+    "to": "2025-04-13 21:14:06",
+    "prev_close": 1.13195,
+    "reopen": 1.13198,
+    "drift": 0.0,
+    "drift_pct": 0.0027,
     "tf": "t100"
    },
    {
@@ -14233,6 +15534,96 @@
     "tf": "t100"
    },
    {
+    "from": "2024-02-02 21:56:51",
+    "to": "2024-02-04 22:19:56",
+    "prev_close": 1.07817,
+    "reopen": 1.07819,
+    "drift": 0.0,
+    "drift_pct": 0.0019,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-03-22 20:56:44",
+    "to": "2024-03-24 22:00:21",
+    "prev_close": 1.08061,
+    "reopen": 1.08063,
+    "drift": 0.0,
+    "drift_pct": 0.0019,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-06-07 20:54:01",
+    "to": "2024-06-09 21:02:25",
+    "prev_close": 1.07731,
+    "reopen": 1.07729,
+    "drift": -0.0,
+    "drift_pct": -0.0019,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-05-17 20:53:27",
+    "to": "2024-05-19 21:05:44",
+    "prev_close": 1.08668,
+    "reopen": 1.0867,
+    "drift": 0.0,
+    "drift_pct": 0.0018,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-07-19 20:56:18",
+    "to": "2024-07-21 21:17:49",
+    "prev_close": 1.0885,
+    "reopen": 1.08848,
+    "drift": -0.0,
+    "drift_pct": -0.0018,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-08-02 20:55:52",
+    "to": "2024-08-04 21:02:56",
+    "prev_close": 1.09202,
+    "reopen": 1.09204,
+    "drift": 0.0,
+    "drift_pct": 0.0018,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-08-09 20:56:46",
+    "to": "2024-08-11 21:30:18",
+    "prev_close": 1.09171,
+    "reopen": 1.09169,
+    "drift": -0.0,
+    "drift_pct": -0.0018,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-08-23 20:56:15",
+    "to": "2024-08-25 21:07:21",
+    "prev_close": 1.11882,
+    "reopen": 1.1188,
+    "drift": -0.0,
+    "drift_pct": -0.0018,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-09-27 20:55:51",
+    "to": "2024-09-29 21:06:00",
+    "prev_close": 1.11555,
+    "reopen": 1.11557,
+    "drift": 0.0,
+    "drift_pct": 0.0018,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-04-25 20:55:38",
+    "to": "2025-04-27 22:00:33",
+    "prev_close": 1.13642,
+    "reopen": 1.1364,
+    "drift": -0.0,
+    "drift_pct": -0.0018,
+    "tf": "t100"
+   },
+   {
     "from": "2026-07-24 20:56:13",
     "to": "2026-07-26 21:16:21",
     "prev_close": 1.13921,
@@ -14257,6 +15648,33 @@
     "reopen": 1.11956,
     "drift": -0.0,
     "drift_pct": -0.0018,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-07-18 20:56:52",
+    "to": "2025-07-20 21:13:05",
+    "prev_close": 1.16248,
+    "reopen": 1.1625,
+    "drift": 0.0,
+    "drift_pct": 0.0017,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-11-07 21:55:48",
+    "to": "2025-11-09 22:31:34",
+    "prev_close": 1.15557,
+    "reopen": 1.15555,
+    "drift": -0.0,
+    "drift_pct": -0.0017,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-11-14 21:56:30",
+    "to": "2025-11-16 22:17:56",
+    "prev_close": 1.16209,
+    "reopen": 1.16207,
+    "drift": -0.0,
+    "drift_pct": -0.0017,
     "tf": "t100"
    },
    {
@@ -14293,6 +15711,429 @@
     "reopen": 1.14819,
     "drift": 0.0,
     "drift_pct": 0.0017,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-12-20 21:56:27",
+    "to": "2024-12-22 22:09:40",
+    "prev_close": 1.04294,
+    "reopen": 1.04293,
+    "drift": -0.0,
+    "drift_pct": -0.001,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-12-27 21:55:44",
+    "to": "2024-12-29 22:04:09",
+    "prev_close": 1.043,
+    "reopen": 1.04301,
+    "drift": 0.0,
+    "drift_pct": 0.001,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-01-03 21:52:45",
+    "to": "2025-01-05 22:07:45",
+    "prev_close": 1.03022,
+    "reopen": 1.03023,
+    "drift": 0.0,
+    "drift_pct": 0.001,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-01-17 21:56:16",
+    "to": "2025-01-19 22:17:10",
+    "prev_close": 1.02743,
+    "reopen": 1.02742,
+    "drift": -0.0,
+    "drift_pct": -0.001,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-01-31 21:56:50",
+    "to": "2025-02-02 22:05:49",
+    "prev_close": 1.02458,
+    "reopen": 1.02457,
+    "drift": -0.0,
+    "drift_pct": -0.001,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-02-21 21:56:36",
+    "to": "2025-02-23 22:14:31",
+    "prev_close": 1.04647,
+    "reopen": 1.04648,
+    "drift": 0.0,
+    "drift_pct": 0.001,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-01-26 21:55:21",
+    "to": "2024-01-28 22:08:29",
+    "prev_close": 1.08413,
+    "reopen": 1.08412,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-02-16 21:56:00",
+    "to": "2024-02-18 22:16:53",
+    "prev_close": 1.0775,
+    "reopen": 1.07749,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-02-23 21:53:58",
+    "to": "2024-02-25 22:01:17",
+    "prev_close": 1.08279,
+    "reopen": 1.08278,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-03-29 20:54:45",
+    "to": "2024-03-31 21:40:47",
+    "prev_close": 1.07896,
+    "reopen": 1.07895,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-04-05 20:52:48",
+    "to": "2024-04-07 21:31:01",
+    "prev_close": 1.08361,
+    "reopen": 1.0836,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-04-26 20:54:27",
+    "to": "2024-04-28 21:19:02",
+    "prev_close": 1.06928,
+    "reopen": 1.06927,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-05-03 20:55:55",
+    "to": "2024-05-05 21:07:58",
+    "prev_close": 1.07629,
+    "reopen": 1.07628,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-06-14 20:55:28",
+    "to": "2024-06-16 21:09:33",
+    "prev_close": 1.07045,
+    "reopen": 1.07044,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-06-21 20:52:58",
+    "to": "2024-06-23 21:04:37",
+    "prev_close": 1.0688,
+    "reopen": 1.06881,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-08-16 20:53:49",
+    "to": "2024-08-18 21:03:21",
+    "prev_close": 1.10266,
+    "reopen": 1.10265,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-08-30 20:55:40",
+    "to": "2024-09-01 21:06:02",
+    "prev_close": 1.10434,
+    "reopen": 1.10433,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-10-11 20:56:56",
+    "to": "2024-10-13 21:23:28",
+    "prev_close": 1.09313,
+    "reopen": 1.09312,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-10-18 20:53:37",
+    "to": "2024-10-20 21:08:44",
+    "prev_close": 1.08598,
+    "reopen": 1.08599,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-10-25 20:52:51",
+    "to": "2024-10-27 21:02:21",
+    "prev_close": 1.07928,
+    "reopen": 1.07929,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-11-01 20:56:15",
+    "to": "2024-11-03 22:04:09",
+    "prev_close": 1.08805,
+    "reopen": 1.08806,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-11-08 21:55:37",
+    "to": "2024-11-10 22:05:44",
+    "prev_close": 1.07102,
+    "reopen": 1.07101,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-11-15 21:55:54",
+    "to": "2024-11-17 22:06:49",
+    "prev_close": 1.05321,
+    "reopen": 1.05322,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2024-12-06 21:55:57",
+    "to": "2024-12-08 22:09:40",
+    "prev_close": 1.05604,
+    "reopen": 1.05603,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-03-07 21:56:51",
+    "to": "2025-03-09 21:17:31",
+    "prev_close": 1.08327,
+    "reopen": 1.08328,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-03-14 20:55:45",
+    "to": "2025-03-16 21:15:32",
+    "prev_close": 1.08777,
+    "reopen": 1.08776,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-04-04 20:56:41",
+    "to": "2025-04-06 21:12:10",
+    "prev_close": 1.08812,
+    "reopen": 1.08813,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-05-02 20:56:57",
+    "to": "2025-05-04 21:39:25",
+    "prev_close": 1.12973,
+    "reopen": 1.12974,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-05-16 20:55:49",
+    "to": "2025-05-18 21:06:05",
+    "prev_close": 1.11733,
+    "reopen": 1.11734,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-05-23 20:56:20",
+    "to": "2025-05-25 21:24:33",
+    "prev_close": 1.13626,
+    "reopen": 1.13627,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-06-06 20:54:49",
+    "to": "2025-06-08 21:18:31",
+    "prev_close": 1.13934,
+    "reopen": 1.13933,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-06-13 20:54:14",
+    "to": "2025-06-15 21:03:20",
+    "prev_close": 1.15257,
+    "reopen": 1.15256,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-06-27 20:56:00",
+    "to": "2025-06-29 21:16:39",
+    "prev_close": 1.17189,
+    "reopen": 1.1719,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-07-25 20:56:19",
+    "to": "2025-07-27 21:03:07",
+    "prev_close": 1.17577,
+    "reopen": 1.17576,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-08-01 20:56:18",
+    "to": "2025-08-03 21:08:45",
+    "prev_close": 1.15901,
+    "reopen": 1.159,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-08-15 20:56:16",
+    "to": "2025-08-17 21:12:07",
+    "prev_close": 1.17088,
+    "reopen": 1.17089,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-08-22 20:56:36",
+    "to": "2025-08-24 21:25:33",
+    "prev_close": 1.17253,
+    "reopen": 1.17254,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-08-29 20:56:55",
+    "to": "2025-08-31 21:11:38",
+    "prev_close": 1.16943,
+    "reopen": 1.16942,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-09-05 20:56:03",
+    "to": "2025-09-07 21:16:40",
+    "prev_close": 1.17162,
+    "reopen": 1.17161,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-09-12 20:53:17",
+    "to": "2025-09-14 21:09:20",
+    "prev_close": 1.17291,
+    "reopen": 1.17292,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-09-19 20:55:07",
+    "to": "2025-09-21 21:24:15",
+    "prev_close": 1.17416,
+    "reopen": 1.17417,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-09-26 20:56:30",
+    "to": "2025-09-28 21:43:03",
+    "prev_close": 1.17016,
+    "reopen": 1.17017,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-10-03 20:56:01",
+    "to": "2025-10-05 21:11:42",
+    "prev_close": 1.17226,
+    "reopen": 1.17225,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-10-17 20:54:32",
+    "to": "2025-10-19 21:01:43",
+    "prev_close": 1.16625,
+    "reopen": 1.16624,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-10-31 20:56:06",
+    "to": "2025-11-02 22:37:07",
+    "prev_close": 1.15298,
+    "reopen": 1.15299,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-11-21 21:56:22",
+    "to": "2025-11-23 22:35:10",
+    "prev_close": 1.15109,
+    "reopen": 1.15108,
+    "drift": -0.0,
+    "drift_pct": -0.0009,
+    "tf": "t100"
+   },
+   {
+    "from": "2025-12-05 21:55:00",
+    "to": "2025-12-07 22:08:56",
+    "prev_close": 1.16368,
+    "reopen": 1.16369,
+    "drift": 0.0,
+    "drift_pct": 0.0009,
     "tf": "t100"
    },
    {
@@ -16744,164 +18585,164 @@
   "t750": 1
  },
  "cross_validation": [
-  "daily H/L t100 vs h4, printed-day: 278 days, H match 32, L match 45",
-  "daily H/L t100 vs h4, session-day: 232 days, H match 34, L match 15"
+  "daily H/L t100 vs h4, printed-day: 904 days, H match 101, L match 123",
+  "daily H/L t100 vs h4, session-day: 753 days, H match 90, L match 49"
  ],
  "phase_sweeps": {},
  "reconciliations": {
   "t100_vs_h4_printed": {
    "mode": "printed",
-   "days_compared": 278,
-   "high_match": 32,
-   "low_match": 45,
+   "days_compared": 904,
+   "high_match": 101,
+   "low_match": 123,
    "mismatches": [
     {
-     "day": "2026-01-01",
-     "fine_H": 1.17511,
-     "fine_L": 1.17446,
-     "daily_H": 1.17628,
-     "daily_L": 1.17383
+     "day": "2024-01-01",
+     "fine_H": 1.10446,
+     "fine_L": 1.10358,
+     "daily_H": 1.10446,
+     "daily_L": 1.10344
     },
     {
-     "day": "2026-01-02",
-     "fine_H": 1.17649,
-     "fine_L": 1.17133,
-     "daily_H": 1.17312,
-     "daily_L": 1.17143
+     "day": "2024-01-02",
+     "fine_H": 1.10435,
+     "fine_L": 1.09378,
+     "daily_H": 1.09549,
+     "daily_L": 1.09378
     },
     {
-     "day": "2026-01-04",
-     "fine_H": 1.17203,
-     "fine_L": 1.17002,
-     "daily_H": 1.17203,
-     "daily_L": 1.16998
+     "day": "2024-01-03",
+     "fine_H": 1.09654,
+     "fine_L": 1.08931,
+     "daily_H": 1.09277,
+     "daily_L": 1.0907
     },
     {
-     "day": "2026-01-05",
-     "fine_H": 1.17288,
-     "fine_L": 1.16591,
-     "daily_H": 1.17254,
-     "daily_L": 1.17107
+     "day": "2024-01-04",
+     "fine_H": 1.09723,
+     "fine_L": 1.09161,
+     "daily_H": 1.09562,
+     "daily_L": 1.0939
     },
     {
-     "day": "2026-01-06",
-     "fine_H": 1.17429,
-     "fine_L": 1.16833,
-     "daily_H": 1.17006,
-     "daily_L": 1.16833
+     "day": "2024-01-05",
+     "fine_H": 1.09984,
+     "fine_L": 1.08903,
+     "daily_H": 1.09598,
+     "daily_L": 1.09354
     },
     {
-     "day": "2026-01-07",
-     "fine_H": 1.17028,
-     "fine_L": 1.16723,
-     "daily_H": 1.16781,
-     "daily_L": 1.16723
+     "day": "2024-01-07",
+     "fine_H": 1.09459,
+     "fine_L": 1.0935,
+     "daily_H": 1.09532,
+     "daily_L": 1.09326
     },
     {
-     "day": "2026-01-08",
-     "fine_H": 1.1683,
-     "fine_L": 1.16427,
-     "daily_H": 1.16624,
-     "daily_L": 1.16445
+     "day": "2024-01-08",
+     "fine_H": 1.09789,
+     "fine_L": 1.09227,
+     "daily_H": 1.0962,
+     "daily_L": 1.0945
     },
     {
-     "day": "2026-01-09",
-     "fine_H": 1.16608,
-     "fine_L": 1.1618,
-     "daily_H": 1.164,
-     "daily_L": 1.16289
+     "day": "2024-01-09",
+     "fine_H": 1.09664,
+     "fine_L": 1.09103,
+     "daily_H": 1.09366,
+     "daily_L": 1.09256
     },
     {
-     "day": "2026-01-11",
-     "fine_H": 1.16337,
-     "fine_L": 1.16232,
-     "daily_H": 1.16714,
-     "daily_L": 1.16217
+     "day": "2024-01-10",
+     "fine_H": 1.0975,
+     "fine_L": 1.0923,
+     "daily_H": 1.09804,
+     "daily_L": 1.09665
     },
     {
-     "day": "2026-01-12",
-     "fine_H": 1.16985,
-     "fine_L": 1.16217,
-     "daily_H": 1.16709,
-     "daily_L": 1.16563
+     "day": "2024-01-11",
+     "fine_H": 1.09976,
+     "fine_L": 1.09304,
+     "daily_H": 1.09849,
+     "daily_L": 1.09618
     }
    ]
   },
   "t100_vs_h4_session": {
    "mode": "session",
-   "days_compared": 232,
-   "high_match": 34,
-   "low_match": 15,
+   "days_compared": 753,
+   "high_match": 90,
+   "low_match": 49,
    "mismatches": [
     {
-     "day": "2025-12-31",
-     "fine_H": 1.17484,
-     "fine_L": 1.1745,
-     "daily_H": 1.17531,
-     "daily_L": 1.17305
+     "day": "2024-01-01",
+     "fine_H": 1.10435,
+     "fine_L": 1.09378,
+     "daily_H": 1.10446,
+     "daily_L": 1.10344
     },
     {
-     "day": "2026-01-01",
-     "fine_H": 1.17649,
-     "fine_L": 1.17133,
-     "daily_H": 1.17628,
-     "daily_L": 1.17383
+     "day": "2024-01-02",
+     "fine_H": 1.09654,
+     "fine_L": 1.08931,
+     "daily_H": 1.09549,
+     "daily_L": 1.09378
     },
     {
-     "day": "2026-01-04",
-     "fine_H": 1.17288,
-     "fine_L": 1.16591,
-     "daily_H": 1.17203,
-     "daily_L": 1.16998
+     "day": "2024-01-03",
+     "fine_H": 1.09723,
+     "fine_L": 1.09161,
+     "daily_H": 1.09277,
+     "daily_L": 1.0907
     },
     {
-     "day": "2026-01-05",
-     "fine_H": 1.17429,
-     "fine_L": 1.16833,
-     "daily_H": 1.17254,
-     "daily_L": 1.17107
+     "day": "2024-01-04",
+     "fine_H": 1.09984,
+     "fine_L": 1.08903,
+     "daily_H": 1.09562,
+     "daily_L": 1.0939
     },
     {
-     "day": "2026-01-06",
-     "fine_H": 1.17028,
-     "fine_L": 1.16723,
-     "daily_H": 1.17006,
-     "daily_L": 1.16833
+     "day": "2024-01-07",
+     "fine_H": 1.09789,
+     "fine_L": 1.09227,
+     "daily_H": 1.09532,
+     "daily_L": 1.09326
     },
     {
-     "day": "2026-01-07",
-     "fine_H": 1.1683,
-     "fine_L": 1.16427,
-     "daily_H": 1.16781,
-     "daily_L": 1.16723
+     "day": "2024-01-08",
+     "fine_H": 1.09664,
+     "fine_L": 1.09103,
+     "daily_H": 1.0962,
+     "daily_L": 1.0945
     },
     {
-     "day": "2026-01-08",
-     "fine_H": 1.16624,
-     "fine_L": 1.1618,
-     "daily_H": 1.16624,
-     "daily_L": 1.16445
+     "day": "2024-01-09",
+     "fine_H": 1.09733,
+     "fine_L": 1.0923,
+     "daily_H": 1.09366,
+     "daily_L": 1.09256
     },
     {
-     "day": "2026-01-11",
-     "fine_H": 1.16985,
-     "fine_L": 1.16217,
-     "daily_H": 1.16714,
-     "daily_L": 1.16217
+     "day": "2024-01-10",
+     "fine_H": 1.09976,
+     "fine_L": 1.09304,
+     "daily_H": 1.09804,
+     "daily_L": 1.09665
     },
     {
-     "day": "2026-01-12",
-     "fine_H": 1.16776,
-     "fine_L": 1.1634,
-     "daily_H": 1.16709,
-     "daily_L": 1.16563
+     "day": "2024-01-11",
+     "fine_H": 1.0987,
+     "fine_L": 1.09361,
+     "daily_H": 1.09849,
+     "daily_L": 1.09618
     },
     {
-     "day": "2026-01-13",
-     "fine_H": 1.16617,
-     "fine_L": 1.16354,
-     "daily_H": 1.16456,
-     "daily_L": 1.16366
+     "day": "2024-01-14",
+     "fine_H": 1.09674,
+     "fine_L": 1.09336,
+     "daily_H": 1.09561,
+     "daily_L": 1.09408
     }
    ]
   }
@@ -17168,6 +19009,34 @@
   "t100": {
    "years": [
     {
+     "year": 2024,
+     "bars": 138033,
+     "active_days": 314,
+     "bars_per_day": 439.6,
+     "implied_ticks_per_day": 43960.0,
+     "median_min_per_bar": 2.15,
+     "avg_range_usd": 0.00023,
+     "median_range_usd": 0.0002,
+     "avg_range_pct": 0.02,
+     "median_range_pct": 0.02,
+     "cost_base_pct_of_avg_range": 4.31,
+     "cost_stress_pct_of_avg_range": 12.93
+    },
+    {
+     "year": 2025,
+     "bars": 149933,
+     "active_days": 312,
+     "bars_per_day": 480.6,
+     "implied_ticks_per_day": 48055.0,
+     "median_min_per_bar": 2.0,
+     "avg_range_usd": 0.00032,
+     "median_range_usd": 0.00028,
+     "avg_range_pct": 0.03,
+     "median_range_pct": 0.02,
+     "cost_base_pct_of_avg_range": 3.16,
+     "cost_stress_pct_of_avg_range": 9.48
+    },
+    {
      "year": 2026,
      "bars": 139010,
      "active_days": 278,
@@ -17184,30 +19053,30 @@
    ],
    "hourly": {
     "profile": [
-     5367,
-     5836,
-     4264,
-     3553,
-     3016,
-     3900,
-     5798,
-     6951,
-     7311,
-     6520,
-     5888,
-     6351,
-     8352,
-     10426,
-     11199,
-     10117,
-     7483,
-     6233,
-     5828,
-     5198,
-     3336,
-     1200,
-     2236,
-     2647
+     15449,
+     17206,
+     13124,
+     10923,
+     9455,
+     11880,
+     18048,
+     23106,
+     23559,
+     20717,
+     18427,
+     19072,
+     26140,
+     31955,
+     34088,
+     30107,
+     22565,
+     18576,
+     17323,
+     15364,
+     10305,
+     4963,
+     6654,
+     7970
     ],
     "dead_hours": [],
     "top_hours": [
@@ -17215,13 +19084,13 @@
      13,
      15,
      12,
-     16,
-     8
+     8,
+     7
     ],
     "first_bar_hour_histogram": {
-     "0": 231,
-     "21": 34,
-     "22": 13
+     "0": 750,
+     "21": 100,
+     "22": 54
     }
    },
    "febmar": {
@@ -17371,15 +19240,16 @@
    }
   }
  },
- "timezone": "UTC: session-open days (first bar after a >6h gap) start at 21:00-23:59 in 100% of cases; the 21/22 split flips with US DST (EDT/EST), matching the 21:00/22:00 UTC session boundary",
+ "timezone": "UTC: session-open days (first bar after a >6h gap) start at 21:00-23:59 in 99% of cases; the 21/22 split flips with US DST (EDT/EST), matching the 21:00/22:00 UTC session boundary",
  "timezone_timeframe": "t100",
  "first_bar_hour_histogram": {
-  "22": 12,
-  "21": 34
+  "22": 53,
+  "21": 100,
+  "0": 1
  },
  "readiness": [
   "t500 ABSENT: MA layer not runnable; t500 exports required.",
-  "t100 2026-01-01..2026-11-20: entry layer READY (139010 bars), but faithful-transpose cells NOT runnable - t500 MA layer absent, t500 exports required.",
+  "t100 2024-01-01..2026-11-20: entry layer READY (426976 bars), but faithful-transpose cells NOT runnable - t500 MA layer absent, t500 exports required.",
   "not present in this run: t300, t500. t300 would be derivable from t100 (groups of 3, phase calibrated by sweep) if t100 present; t750 from t1 ticks (groups of 750) where tick coverage exists; neither is derivable from a coarser bar file alone.",
   "present extra timeframes enabling cross-validation: t750, h4. NOT present in this run: t300.",
   "No strategy backtest in this run - receipt and digest only; the strategy grid is a separate, later prompt."
