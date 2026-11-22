@@ -1,6 +1,6 @@
 # EURUSD PHASE II - DATA RECEIPT & DIGEST
 
-Run: phase2_digest.py (python 3.12.14) at 2026-11-22 12:47:15 UTC. Input dir: `/workspace/EURUSD`. Files found: 13.
+Run: phase2_digest.py (python 3.12.14) at 2026-11-22 14:52:48 UTC. Input dir: `/workspace/EURUSD`. Files found: 17.
 
 ## MANIFEST
 
@@ -14,6 +14,10 @@ Run: phase2_digest.py (python 3.12.14) at 2026-11-22 12:47:15 UTC. Input dir: `/
 | CCMonthCapture EURUSD t100 20250101-20251231.csv | 8330808 | aec5de382e3d86b364f0349d94279622 | 149933 | 2025-01-01 22:08:56 | 2025-12-31 21:55:42 | t100 | 2025 | 2025-01-01 22:08:56 .. 2025-12-31 21:55:42 | EURUSD |
 | CCMonthCapture EURUSD t100 20260101-20260630.csv | 4728873 | 3b448a83dcecc59ba51ecb0ee86cb16c | 85112 | 2026-01-01 22:18:04 | 2026-06-30 23:56:33 | t100 | 2026 | 2026-01-01 22:18:04 .. 2026-06-30 23:56:33 | EURUSD |
 | CCMonthCapture EURUSD t100 20260701-20261121.csv | 2994749 | cf3b0f988b069839e18ff26b4cbbf62b | 53898 | 2026-07-01 00:00:13 | 2026-11-20 21:50:05 | t100 | 2026 | 2026-07-01 00:00:13 .. 2026-11-20 21:50:05 | EURUSD |
+| CCMonthCapture EURUSD t7 20260701-20260731.csv | 9437699 | 8934f0a6d5624dc8b6c486bdeae5f004 | 176226 | 2026-07-01 00:00:01 | 2026-07-31 20:56:59 | t7 | 2026 | 2026-07-01 00:00:01 .. 2026-07-31 20:56:59 | EURUSD |
+| CCMonthCapture EURUSD t7 20260801-20260831.csv | 7876400 | 84283d6c8c3d14a0a2785aa9725f0121 | 147019 | 2026-08-02 21:03:11 | 2026-08-31 23:59:58 | t7 | 2026 | 2026-08-02 21:03:11 .. 2026-08-31 23:59:58 | EURUSD |
+| CCMonthCapture EURUSD t7 20260901-20260930.csv | 8037508 | 60fe8d5170e3a17f3ab7fa9a3f319aec | 150104 | 2026-09-01 00:00:05 | 2026-09-30 23:59:51 | t7 | 2026 | 2026-09-01 00:00:05 .. 2026-09-30 23:59:51 | EURUSD |
+| CCMonthCapture EURUSD t7 20261001-20261031.csv | 9092017 | baf98232ad1af14f1d93f2743c331a9a | 169731 | 2026-10-01 00:59:34 | 2026-10-30 20:56:57 | t7 | 2026 | 2026-10-01 00:59:34 .. 2026-10-30 20:56:57 | EURUSD |
 | CCMonthCapture EURUSD t750 20220101-20221231.csv | 1507209 | b068ff827f12e0ac50dfe83337239ef0 | 27148 | 2022-01-02 23:05:58 | 2022-12-30 21:54:48 | t750 | 2022 | 2022-01-02 23:05:58 .. 2022-12-30 21:54:48 | EURUSD |
 | CCMonthCapture EURUSD t750 20230101-20231231.csv | 1050416 | 52eff4e7980fd5ea9ddded88cb45781d | 18940 | 2023-01-01 22:48:12 | 2023-12-29 21:44:53 | t750 | 2023 | 2023-01-01 22:48:12 .. 2023-12-29 21:44:53 | EURUSD |
 | CCMonthCapture EURUSD t750 20240101-20241231.csv | 1022244 | 9f4051eb5b996fa84260b342b0d9d78d | 18404 | 2024-01-01 23:41:48 | 2024-12-31 21:30:01 | t750 | 2024 | 2024-01-01 23:41:48 .. 2024-12-31 21:30:01 | EURUSD |
@@ -22,6 +26,7 @@ Run: phase2_digest.py (python 3.12.14) at 2026-11-22 12:47:15 UTC. Input dir: `/
 
 - **h4**: 19168 rows (2 files), 2013-07-26 05:00:00 .. 2026-11-20 18:00:00; overlap 10000/10000 identical, 0 conflicts.
 - **t100**: 772634 rows (6 files), 2022-01-02 23:00:53 .. 2026-11-20 21:50:05; overlap 0/0 identical, 0 conflicts.
+- **t7**: 643080 rows (4 files), 2026-07-01 00:00:01 .. 2026-10-30 20:56:57; overlap 0/0 identical, 0 conflicts.
 - **t750**: 103016 rows (5 files), 2022-01-02 23:05:58 .. 2026-11-20 20:52:35; overlap 0/0 identical, 0 conflicts.
 
 ## FORMAT
@@ -34,6 +39,10 @@ Run: phase2_digest.py (python 3.12.14) at 2026-11-22 12:47:15 UTC. Input dir: `/
 - CCMonthCapture EURUSD t100 20250101-20251231.csv: 7 fields date,time,O,H,L,C,V confirmed
 - CCMonthCapture EURUSD t100 20260101-20260630.csv: 7 fields date,time,O,H,L,C,V confirmed
 - CCMonthCapture EURUSD t100 20260701-20261121.csv: 7 fields date,time,O,H,L,C,V confirmed
+- CCMonthCapture EURUSD t7 20260701-20260731.csv: 7 fields date,time,O,H,L,C,V confirmed
+- CCMonthCapture EURUSD t7 20260801-20260831.csv: 7 fields date,time,O,H,L,C,V confirmed
+- CCMonthCapture EURUSD t7 20260901-20260930.csv: 7 fields date,time,O,H,L,C,V confirmed
+- CCMonthCapture EURUSD t7 20261001-20261031.csv: 7 fields date,time,O,H,L,C,V confirmed
 - CCMonthCapture EURUSD t750 20220101-20221231.csv: 7 fields date,time,O,H,L,C,V confirmed
 - CCMonthCapture EURUSD t750 20230101-20231231.csv: 7 fields date,time,O,H,L,C,V confirmed
 - CCMonthCapture EURUSD t750 20240101-20241231.csv: 7 fields date,time,O,H,L,C,V confirmed
@@ -44,20 +53,23 @@ Run: phase2_digest.py (python 3.12.14) at 2026-11-22 12:47:15 UTC. Input dir: `/
 
 - **h4**: wrong-field-count 0; OHLC violations 0; duplicate ts 0; non-monotonic 0; zero-range 1; zero-volume 0.
 - **t100**: wrong-field-count 0; OHLC violations 0; duplicate ts 0; non-monotonic 0; zero-range 0; zero-volume 0.
+- **t7**: wrong-field-count 0; OHLC violations 0; duplicate ts 0; non-monotonic 0; zero-range 0; zero-volume 0.
 - **t750**: wrong-field-count 0; OHLC violations 0; duplicate ts 0; non-monotonic 0; zero-range 0; zero-volume 0.
 
 ## GAPS & SEAMS
 
-Timezone evidence (finest timeframe t100): UTC: session-open days (first bar after a >6h gap) start at 21:00-23:59 in 100% of cases; the 21/22 split flips with US DST (EDT/EST), matching the 21:00/22:00 UTC session boundary (histogram in receipt.json).
+Timezone evidence (finest timeframe t7): UTC: session-open days (first bar after a >6h gap) start at 21:00-23:59 in 100% of cases; the 21/22 split flips with US DST (EDT/EST), matching the 21:00/22:00 UTC session boundary (histogram in receipt.json).
 - h4 (thr 10.0h): weekend 642, holiday 13, UNEXPLAINED 1.
 - t100 (thr 6.0h): weekend 254, holiday 4, UNEXPLAINED 0.
+- t7 (thr 6.0h): weekend 17, holiday 0, UNEXPLAINED 0.
 - t750 (thr 6.0h): weekend 254, holiday 4, UNEXPLAINED 0.
   - UNEXPLAINED 2020-12-31 18:00:00 -> 2022-01-02 22:00:00 (8812.0h)
 - holiday gaps by name: Christmas x11; New Year's Day x10
 - hole map **h4**: 308 zero-bar days (incl. 48 Fridays - this timeframe has no Friday bars in part of its range): 2017-01-01, 2017-12-24 ... (full map in receipt.json)
 - hole map **t100**: 3 zero-bar days: 2022-12-25, 2023-12-24 ... (full map in receipt.json)
+- hole map **t7**: 0 zero-bar days: 
 - hole map **t750**: 3 zero-bar days: 2022-12-25, 2023-12-24 ... (full map in receipt.json)
-- weekend seams: 1148 total across timeframes, mean |drift| 0.06%, worst 5:
+- weekend seams: 1165 total across timeframes, mean |drift| 0.06%, worst 5:
   - [h4] 2017-04-21 17:00:00 -> 2017-04-23 21:00:00 close 1.07238 reopen 1.09089 drift +0.01850 (1.73%)
   - [h4] 2015-06-26 17:00:00 -> 2015-06-28 21:00:00 close 1.11634 reopen 1.10055 drift -0.01580 (-1.41%)
   - [h4] 2022-02-25 18:00:00 -> 2022-02-27 22:00:00 close 1.12718 reopen 1.11280 drift -0.01440 (-1.28%)
@@ -68,13 +80,14 @@ Timezone evidence (finest timeframe t100): UTC: session-open days (first bar aft
 
 - **h4**: 15 flagged bars (delta_close x11; C x4; wick x4). Full rows in anomalies.csv.
 - **t100**: 0 flagged bars (). Full rows in anomalies.csv.
+- **t7**: 1 flagged bars (H x1). Full rows in anomalies.csv.
 - **t750**: 1 flagged bars (H x1). Full rows in anomalies.csv.
 
 ## CROSS-VALIDATION
 
 - same-timeframe overlaps: h4 10000/10000 identical
-- daily H/L t100 vs h4, printed-day: 1526 days, H match 169, L match 189
-- daily H/L t100 vs h4, session-day: 1271 days, H match 154, L match 88
+- daily H/L t7 vs h4, printed-day: 105 days, H match 11, L match 21
+- daily H/L t7 vs h4, session-day: 88 days, H match 14, L match 4
 
 ## CALIBRATION DIGEST
 
@@ -97,6 +110,10 @@ Timezone evidence (finest timeframe t100): UTC: session-open days (first bar aft
 - hourly bar density (00-24, printed hours): 00:26326 01:30358 02:23622 03:19604 04:17065 05:21521 06:32522 07:43409 08:43946 09:38250 10:34229 11:35341 12:47795 13:58261 14:62407 15:53830 16:40165 17:32601 18:31413 19:28395 20:18020 21:8106 22:11277 23:14171
 - dead hours: none; top hours: 14,13,15,12,08,07
 - Feb-Mar 2026: peak H 1.19286 @ 2026-02-10 14:34:11; max close 1.19282 @ 2026-02-10 14:33:26; max bar range 0.00725 @ 2026-03-06 21:56:41; max |dC| 0.62% @ 2026-03-06 21:56:41; March trough close 1.14126; drawdown from max close 4.32%.
+### t7 (reference bars/day ~n/a; ref ticks/day ~n/a (no tick file this run))
+
+- t7: cross-validation/synthetic frame; per-year table and 2021+ stats in receipt.json.
+
 ### t750 (reference bars/day ~n/a; ref ticks/day ~n/a (no tick file this run))
 
 - t750: cross-validation/synthetic frame; per-year table and 2021+ stats in receipt.json.
